@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #CFBCF9;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #F1F1F1;
+  padding: 2rem 2.5rem;
+  min-width: 450px;
+  color: #111211;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.389);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  padding: 20px 0px;
+  gap: 50px;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field label {
+  font-weight: 400;
+  margin-bottom: 18px;
+  font-size: 1.2rem;
+}
+
+.input-field input {
+  background-color: transparent;
+  font-weight: 300;
+  border: none;
+  border-bottom: 2px solid #000000;
+  font-size: 18px;
+  border-radius: 2px;
+  padding: 5px;
+  color: #121211;
+}
+
+.input-field input:focus {
+  outline: none;
+  border-bottom: 3px solid #000000;
+}
+
+#generate-btn {
+  background-color: #121211;
+  cursor: pointer;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  width: 100%;
+  margin: 20px 0px;
+  color: #FFFFF1;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+#result {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 20px 0;
+}
