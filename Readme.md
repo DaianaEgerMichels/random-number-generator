@@ -3,6 +3,7 @@
 A simple and user-friendly random number generator developed using HTML, CSS, and JavaScript. This project allows users to define minimum and maximum values and generates a random number within that specified range. The application is designed for ease of use and can be seamlessly integrated into other web projects.
 
 ## Overview
+You can have an overview and test the application here: [random-number-generator](https://random-generator-number-bydai-michels.netlify.app/)
 
 <img src="./assets/images/overview.png" alt="overview"/>
 
@@ -20,3 +21,4 @@ A simple and user-friendly random number generator developed using HTML, CSS, an
 
 Feel free to contribute, report issues, or suggest improvements!
 
+By: Daiana Eger Michels.
